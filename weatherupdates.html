@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Weather for Coffee Farmers</title>
+
+    <link rel="stylesheet" href="weatherupdates.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="logo1.png" alt="Agricultural Intent Logo">
+                <span>AGRICULTURAL INTENT</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="marketprice.html">Market Prices</a></li>
+                <li><a href="weatherupdates.html">Weather Updates</a></li>
+                <li><a href="expert.html">Expert Q&A</a></li>
+            </ul>
+            <a href="index.html" class="about-btn">Home</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h1>Real-time Weather Updates for Coffee Farmers</h1>
+
+        <!-- Weather Widget -->
+        <div class="weather-widget" id="ww_4e2a8bbd6ecaa" v='1.3' loc='auto' a='{"t":"responsive","lang":"en","sl_lpl":1,"ids":[],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+            <a href="https://weatherwidget.org/" id="ww_4e2a8bbd6ecaa_u" target="_blank">Weather Widget</a>
+        </div>
+        <script async src="https://app3.weatherwidget.org/js/?id=ww_4e2a8bbd6ecaa"></script>
+
+        <!-- Weather Tips for Coffee Farmers -->
+        <div class="weather-tips">
+            <h2>Today's Tips for Coffee Farmers</h2>
+            <p id="weather-advice">Loading weather advice...</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Agricultural Intent | Coffee Farmers Support</p>
+    </footer>
+
+    <!-- Weather Tips Script -->
+    <script src="weatherupdates.js">
+    </script>
+</body>
+</html>

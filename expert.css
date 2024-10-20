@@ -1,0 +1,195 @@
+/* Resetting default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0ffe0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #004d00;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Adjust based on your logo's dimensions */
+    margin-right: 10px;
+}
+
+.logo span {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin-left: 50px;
+}
+
+.nav-links li {
+    margin-right: 30px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #cce8cc;
+}
+
+.about-btn {
+    background-color: white;
+    color: #004d00;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.about-btn:hover {
+    background-color: #f0f0f0;
+}
+
+/* Form Section */
+.consult-form {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.consult-form h2 {
+    color: #004d00;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.consult-form p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.consult-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #004d00;
+}
+
+.consult-form input, .consult-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.consult-form input:focus, .consult-form textarea:focus {
+    outline: none;
+    border-color: #004d00;
+}
+
+.consult-form button {
+    background-color: #008000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.consult-form button:hover {
+    background-color: #005700;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004d00;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+
+
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.modal-content p {
+    font-size: 1.2em;
+    color: #004d00;
+}
+
+#closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5em;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consult an Expert - Coffee Farmers</title>
+    <link rel="stylesheet" href="expert.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="logo1.png" alt="Agricultural Intent Logo"> <!-- Replace logo.png with your actual logo -->
+                <span>AGRICULTURAL INTENT</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="marketprice.html">Market Prices</a></li>
+                <li><a href="weatherupdates.html">Weather Updates</a></li>
+                <li><a href="expert.html">Expert Q&A</a></li>
+            </ul>
+            <a href="index.html" class="about-btn">Home</a>
+        </div>
+    </nav>
+
+    <!-- Form Section -->
+    <section class="consult-form">
+        <h2>Get Expert Advice</h2>
+        <p>Have a question about your coffee farm? Ask our experts!</p>
+        <form id="consultForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="query">Your Question:</label>
+            <textarea id="query" rows="5" placeholder="Describe your issue or question here..." required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Modal for Sending Process -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeBtn">&times;</span>
+            <p>Sending your message...</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Agricultural Intent | Coffee Farmers Support</p>
+    </footer>
+
+    <script src="expert.js"></script>
+</body>
+</html>

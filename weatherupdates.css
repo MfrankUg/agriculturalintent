@@ -1,0 +1,111 @@
+
+               /* Global styles */
+               body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                color: #333;
+            }
+    
+            /* Navbar styles */
+            .navbar {
+                background-color: #1b3d27;
+                padding: 10px;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 9999;
+            }
+            
+            .navbar-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            
+            .logo img {
+                width: 50px;
+                height: auto;
+            }
+            
+            .logo span {
+                color: white;
+                font-size: 1.5em;
+                font-weight: bold;
+                margin-left: 10px;
+            }
+    
+            .nav-links {
+                list-style: none;
+                display: flex;
+                gap: 20px;
+            }
+    
+            .nav-links a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.2em;
+            }
+    
+            .nav-links a:hover {
+                border-bottom: 2px solid white;
+            }
+    
+            .about-btn {
+                background-color: white;
+                color: #1b3d27;
+                padding: 10px 20px;
+                border-radius: 20px;
+                text-decoration: none;
+            }
+    
+            /* Main content */
+            .content {
+                padding: 100px 50px;
+                max-width: 1200px;
+                margin: 0 auto;
+                text-align: center;
+            }
+    
+            .content h1 {
+                font-size: 3em;
+                color: #1b3d27;
+            }
+    
+            /* Weather widget */
+            .weather-widget {
+                margin: 40px auto;
+            }
+    
+            /* Tips for Coffee Farmers */
+            .weather-tips {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+                margin: 40px auto;
+                max-width: 800px;
+                text-align: left;
+            }
+    
+            .weather-tips h2 {
+                color: #1b3d27;
+            }
+    
+            .weather-tips p {
+                font-size: 1.2em;
+                line-height: 1.6;
+            }
+    
+            /* Footer styles */
+            footer {
+                text-align: center;
+                padding: 20px;
+                background-color: #1b3d27;
+                color: white;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }

@@ -1,0 +1,173 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #004d00;
+    padding: 15px 30px;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 9999;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding-bottom: 5px;
+    transition: border-bottom 0.3s ease;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.about-btn {
+    background-color: white;
+    color: #004d00;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-btn:hover {
+    background-color: #f0f0f0;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('background1.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 30px;
+}
+
+.hero-content {
+    max-width: 600px;
+    align-items: left;
+    text-align: left;
+    padding:  80px;
+
+}
+
+.hero h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #fff;
+    color: #004d00;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+    color: #004d00;
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
+    color: #004d00;
+}
+
+/* Footer */
+footer {
+    background-color: #004d00;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .cta-buttons a {
+        width: 100%;
+        text-align: center;
+    }
+}

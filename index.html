@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consult an Expert - Coffee Farmers</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="logo1.png" alt="Agricultural Intent Logo"> <!-- Replace logo.png with your actual logo -->
+                <span>AGRICULTURAL INTENT</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="marketprice.html">Market Prices</a></li>
+                <li><a href="weatherupdates.html">Weather Updates</a></li>
+                <li><a href="expert.html">Expert Q&A</a></li>
+            </ul> 
+            <a href="#" class="about-btn">Login</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Coffee 24/7</h1>
+            <p>Unlock your coffee farmer’s potential with our platform! Get real-time prices, tailored weather forecasts, expert advice, and sensory equipment data to enhance productivity and profitability—join us today!</p>
+            <div class="cta-buttons">
+                <a href="expert.html" class="btn">Ask An Expert</a>
+                <a href="chatbot.html" class="btn-secondary">Agri-Buddy Chat</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Agricultural Intent | Coffee Farmers Support</p>
+    </footer>
+
+    <!--Our chatbot-->
+    <!-- Chatbot Script -->
+    <script>
+        window.danteEmbed = "https://dante-ai.com/embed/?kb_id=6c9c4df7-3709-4141-864a-e64b94340825&token=de560906-518b-4e74-9ce5-47392eef49b9&modeltype=gpt-4-omnimodel-mini&mode=false&logo=ZmFsc2U%3D&bubble=true&bubbleopen=false";
+    </script>
+    <script src="https://dante-ai.com/bubble-embed.js"></script>
+
+    <style>
+        /* Chatbot alignment */
+        .dante-ai-bubble {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 9999; /* Ensure the bubble is on top */
+        }
+    </style>
+
+    <script src="index.js"></script>
+</body>
+</html>
